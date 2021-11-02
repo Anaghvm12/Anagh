@@ -91,9 +91,9 @@ async def start(bot, cmd):
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [
-                    [
-                        InlineKeyboardButton('🔍Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🤖More Bots🤖', url='https://t.me/tg_bots_updates')
+                    ]
+                    [    
+                        InlineKeyboardButton('❣️UNIVERSAL MOVIES❣️', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -124,18 +124,18 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
+                        InlineKeyboardButton("🏷️Join Main Channel🏷️", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl")
                     ],
                     [
-                        InlineKeyboardButton("🙂 source code", url="https://github.com/Lallu-lallus/ALPHA_IMDB_BOT"),
+                        InlineKeyboardButton("🙂 source code", url="https://t.me/joinchat/9P5O-U0QfgViN2Nl"),
                         InlineKeyboardButton("😎 About", callback_data="about")
                     ],
-                    [
-                        InlineKeyboardButton("1 Dev", url="https://t.me/joinchat/Hn3YHLdbQf04MmM1"),
-                        InlineKeyboardButton("2 Dev", url="https://t.me/darkz_angel")
+                    ]
+                    [   
+                        
                     ],
                     [
-                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
+                       
                     ]
                 ]
             )

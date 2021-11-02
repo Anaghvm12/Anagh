@@ -225,8 +225,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/tg_bots_updates'),
-            InlineKeyboardButton('Source Code', url='https://github.com/Lallu-lallus/ALPHA-AUTO-FILTER-BOT')
+            InlineKeyboardButton('🏅Universal Movies🏅', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl'),
+            InlineKeyboardButton('Source Code', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/Lallu-lallus/ALPHA-AUTO-FILTER-BOT'>Click here</a>\nUpdate Channel : <a href='https://t.me/tg_bots_updates'>ALPH_BOTZ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/joinchat/FYBCIcMfr0AyOTFl'>Click here</a>\nUpdate Channel : <a href='https://t.me/tg_bots_updates'>ALPH_BOTZ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
